@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '871dee2331626621512001a19ea26b2f', // Write here your API Key
+	//weatherKey: '871dee2331626621512001a19ea26b2f', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'pl', // More languages in https://openweathermap.org/current#multi
@@ -53,21 +53,21 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'youtube',
+			icon: 'youtube',
+			link: 'https://youtube.com/',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '4',
@@ -78,22 +78,22 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			icon: 'hard-drive',
+			link: 'https://drive.google.com/drive/u/0/my-drive',
 		},
 		{
 			id: '6',
 			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			icon: 'newspaper',
+			link: 'https://studia.wojcikoliwiernotatki.pl/',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
+			name: 'Studia',
+			icon: 'book',
 			link: 'https://open.spotify.com',
 		},
 		{
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'book',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Usos',
+					link: 'https://usosweb.us.edu.pl/kontroler.php?_action=home/index',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Moodle',
+					link: 'https://el.us.edu.pl/wnst/user/profile.php',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Onedrive',
+					link: 'https://uniwersytetslaski-my.sharepoint.com/personal/oliwier_wojcik_o365_us_edu_pl/_layouts/15/onedrive.aspx?view=0',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Plan',
+					link: 'http://plan.ii.us.edu.pl/',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Monkey type',
+					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Twich',
+					link: 'https://www.twitch.tv/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Wolfram',
+					link: 'https://www.wolframalpha.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Google',
+					link: 'https://www.google.com/',
 				},
 			],
 		},
